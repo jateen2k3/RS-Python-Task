@@ -1,0 +1,12 @@
+s= input("enter the string s:")
+t = input("enter the string t :")
+s1=s.lower()
+t1=t.lower()
+print(s1)
+print(t1)
+s2=sorted(s1)
+print(s2)
+t2=sorted(t1)
+print(t2)
+result=s2==t2
+print(result)

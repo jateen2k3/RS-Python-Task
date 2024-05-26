@@ -1,0 +1,19 @@
+l=int(input("enter the no of element:"))
+li=[]
+for i in range (0,l):
+    element=input("enter the element:")
+    li.append(element)
+print(li)
+key=[]
+for i in range(0,l):
+    element=li[i]
+    key.append(element)
+print(key)
+value=[]
+for i in range(0,l):
+    re=li.count(li[i])
+    value.append(re)
+print(value)
+d1={i:j for (i,j) in zip(key,value)}
+print(d1)
+
